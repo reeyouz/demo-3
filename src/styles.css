@@ -1,0 +1,67 @@
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-screen-full {
+  width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-screen-full {
+  height: 100vh;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-md {
+  font-size: 22px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-none {
+  border: none;
+}
+
+.outline-none {
+  outline: none;
+}

@@ -1,0 +1,78 @@
+.login-form {
+  width: 370px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px hsl(0deg 0% 43% / 50%);
+}
+
+.login-form header {
+  position: relative;
+  padding: 42px 24px 0;
+}
+
+.login-form .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -32px;
+  left: calc(50% - 32px);
+  box-shadow: 0 -1px 0 hsl(0deg 0% 43% / 5%);
+}
+
+.login-form .logo svg {
+  width: 36px;
+  height: 36px;
+  color: #4d61fc;
+}
+
+.login-form form {
+  padding: 32px 24px 24px;
+}
+
+.login-form-button {
+  background: #405089;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+  padding: 0 20px 0 15px;
+}
+.login-form-button:disabled {
+  background-color: #707070;
+}
+
+.login-form-error {
+  min-height: 14px;
+  margin-top: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #e35b46;
+}
+
+.login-form footer {
+  padding: 0 24px 24px;
+}
+
+.login-form footer p {
+  font-size: 15px;
+  color: #707070;
+  margin-right: 16px;
+}
+
+.login-form-signup {
+  height: 32px;
+  padding: 0 16px;
+  font-size: 16px;
+  color: #405089;
+  border: 1px solid #405089;
+  border-radius: 16px;
+  background: transparent;
+}
